@@ -1,0 +1,19 @@
+s3:
+  source:
+    bucketName: source-bucket-name
+    region: us
+    accessKeyId: keyId
+    secretAccessKey: secretKey
+    endpoint: https://s3.endpoint.example.com
+    protocol: https
+  target:
+    bucketName: target-bucket-name
+    region: eu
+    accessKeyId: keyId
+    secretAccessKey: secretKey
+    endpoint: https://s3.endpoint.foobar.com
+    protocol: https
+  cacheErrorDuration: 60
+
+http:
+  port: 8080
